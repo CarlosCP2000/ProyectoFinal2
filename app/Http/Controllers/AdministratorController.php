@@ -89,12 +89,6 @@ class AdministratorController extends Controller
     {
         return view('lobby');
     }
-
-
-    
-
-    
-
     public function openRegistrarLibro()
     {
         return view('registrarLibro');
