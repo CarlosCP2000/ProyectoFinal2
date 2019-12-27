@@ -1,0 +1,81 @@
+body {
+    background-image: url('../images/Fondo.png');
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    color: #303030;
+
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color:#fff;
+    font-family: 'Old English Text MT';
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form {
+    text-align: left;
+}
+
+.textinput {
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 14px;
+    border: 0px;
+    width: 200px;
+    height: 30px;
+    background-color: #fff;
+    color: #303030;
+
+    margin-bottom: 15px;
+}
+
+.taginput {
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.return{
+    margin-top: 5px;
+}
+
+.return a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.return a:hover {
+    color: #b4b4b4;
+}
+
+.button input{
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 14px;
+    border: 0px;
+    width: 200px;
+    height: 30px;
+    background-color: #303030;
+    color: #fff;
+
+    transition: 0.3s;
+    margin-top: 25px;
+}
+
+.button input:hover{
+    background-color: #F3F3F3;
+    color: #303030;
+}
+
+.container {
+    text-align: center;
+}

@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    color: #303030;
+
+    display: flex;
+    justify-content: center;
+}
+
+ th, td {
+    text-align: left;
+    vertical-align: top;
+ }
+
+ th {
+    padding-bottom: 10px;
+ }
+
+ td {
+     width: 150px;
+ }
+
+.title {
+    font-family: 'Old English Text MT';
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.return {
+    margin-top: 5px;
+}
+
+.return input{
+    text-decoration: none;
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    color: #303030;
+    border: 0px;
+    background-color: white;
+}
+
+
+.form {
+    text-align: left;
+}
+
+.textinput {
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 14px;
+    border: 0px;
+    width: 200px;
+    height: 30px;
+    background-color: #F3F3F3;
+    color: #303030;
+
+    margin-bottom: 15px;
+}
+
+.taginput {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.button input{
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 14px;
+    border: 0px;
+    width: 200px;
+    height: 30px;
+    background-color: #303030;
+    color: #fff;
+
+    transition: 0.3s;
+    margin-top: 25px;
+}
+
+.button input:hover{
+    background-color: #F3F3F3;
+    color: #303030;
+}
+
+.container {
+    text-align: center;
+}

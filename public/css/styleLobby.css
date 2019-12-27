@@ -1,0 +1,47 @@
+body {
+    background-image: url('../images/Fondo.png');
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    color: #fff;
+}
+
+.tagline {
+    font-size: 24px;
+}
+
+.logo {
+    font-family: 'Old English Text MT';
+    font-size: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #303030;
+}
+
+.button button{
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 14px;
+    border: 0px;
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    color: #303030;
+
+    transition: 0.3s;
+}
+
+.button button:hover{
+    width: 220px;
+    height: 70px;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
