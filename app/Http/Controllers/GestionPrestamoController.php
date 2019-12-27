@@ -4,11 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Book;
-use App\Client;
-use App\Copy;
-use App\Loan;
-use App\People;
+use App\Models\Book;
+use App\Models\Client;
+use App\Models\Copy;
+use App\Models\Loan;
+use App\Models\People;
 
 
 class GestionPrestamoController extends Controller

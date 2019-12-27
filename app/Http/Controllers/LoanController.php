@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Loan;
-use App\Client;
-use App\Copy;
+use App\Models\Loan;
+use App\Models\Client;
+use App\Models\Copy;
 
 class LoanController extends Controller
 {

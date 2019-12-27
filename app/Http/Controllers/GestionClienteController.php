@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\People;
-use App\Client;
-use App\Loan;
-use App\ReturnModel;
+use App\Models\People;
+use App\Models\Client;
+use App\Models\Loan;
+use App\Models\ReturnModel;
 
 class GestionClienteController extends Controller
 {
