@@ -56,14 +56,26 @@ class AdministratorController extends Controller
         $Administrator->username = $request->input('username');
         $Administrator->password = $request->input('password');
         $Administrator->save();
+
+        echo'<script type="text/javascript">
+            alert("Administrador Registrado");
+            window.location.href="registrarAdministrador";
+            </script>';
     }
 
     public function store(Request $request)
     {
         $Administrator=Administrator::all();
         $People=People::all();
-        
-        if($request->input('username')==$Administrator[0]->username && $request->input('password')==$Administrator[0]->password){
+        $comparar = false;
+        foreach($Administrator as $admi){
+            if($admi->username == $request->input('username') && $admi->password == $request-input('password')){
+                $comparar = true;
+                break;
+            }
+        }
+
+        if($comparar){
             return view('home', compact('Administrator','People'));
         }else{
             echo'<script type="text/javascript">
