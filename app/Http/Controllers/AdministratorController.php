@@ -45,7 +45,7 @@ class AdministratorController extends Controller
 
     public function registrar(Request $request)
     {
-        $Peope = new People;
+        $People = new People;
         $People->id = $request->input('dni');
         $People->name = $request->input('name');
         $People->lastname = $request->input('lastname');
