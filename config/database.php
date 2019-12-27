@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'pgsql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -65,12 +65,12 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'url' => env('https://proyfinal.herokuapp.com/'),
+            'host' => env('DB_HOST', 'ec2-174-129-22-22.compute-1.amazonaws.com'),
             'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', 'd75eancjc8dm49'),
+            'username' => env('DB_USERNAME', 'dvqfwoxpnsingn'),
+            'password' => env('DB_PASSWORD', 'f4c1f7755d43604ccc60a44402acfb3eb5e8f4c32d334c0f70419964bcfba67c'),
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
