@@ -38,6 +38,26 @@ class AdministratorController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
+    public function registrarView()
+    {
+        return view('registrarAdministrador');
+    }
+
+    public function registrar(Request $request)
+    {
+        $Peope = new People;
+        $People->id = $request->input('dni');
+        $People->name = $request->input('name');
+        $People->lastname = $request->input('lastname');
+        $People->save();
+
+        $Administrator = new Administrator;
+        $Administrator->peoples_id = $request->input('dni');
+        $Administrator->username = $request->input('username');
+        $Administrator->password = $request->input('password');
+        $Administrator->save();
+    }
+
     public function store(Request $request)
     {
         $Administrator=Administrator::all();

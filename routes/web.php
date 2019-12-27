@@ -22,6 +22,9 @@ Route::get('/login', function () {
 Route::get('/home', 'AdministratorController@index');
 Route::post('/home', 'AdministratorController@store');
 
+Route::get('/registrarAdministrador', 'AdministratorController@registrarView');
+Route::post('/registrarAdministrador', 'AdministratorController@registrar');
+
 Route::get('/registrarCliente', 'ClientController@index');
 Route::post('/registrarCliente', 'ClientController@store');
 

@@ -29,6 +29,12 @@
                 </div>
             </div>
             </form>
+            <form action="/registrarAdministrador" method="GET">
+            @csrf
+                <div class="button">
+                    <input type="submit" value="REGISTRAR">
+                </div>
+            </form>
         </div>
     </div>
 </body>
