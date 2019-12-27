@@ -69,7 +69,7 @@ class AdministratorController extends Controller
         $People=People::all();
         $comparar = false;
         foreach($Administrator as $admi){
-            if($admi->username == $request->input('username') && $admi->password == $request-input('password')){
+            if($admi->username == $request->input('username') && $admi->password == $request->input('password')){
                 $comparar = true;
                 break;
             }
